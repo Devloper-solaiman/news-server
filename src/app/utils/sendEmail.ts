@@ -7,17 +7,17 @@ export const sendEmail = async (to: string, resetLink: string) => {
     secure: false,
     auth: {
       user: "devlopersolaiman@gmail.com",
-      pass: "lych epuz scux pmkg",
+      pass: "zwwl jklb kveb fpzy",
     },
   });
 
   const mailOptions = {
     from: process.env.EMAIL_USER,
     to,
-    subject: "Password Reset - Travel Tips & Destination Guides",
+    subject: "Password Reset - Travel Guides",
     html: `
   <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #dddddd; border-radius: 10px;">
-    <h2 style="color: #0073e6; text-align: center;">Travel Tips & Destination Guides</h2>
+    <h2 style="color: #0073e6; text-align: center;">Travel Guides</h2>
     <h3 style="color: #333333;">Reset Your Password</h3>
     <p style="color: #333333; font-size: 16px;">
       Hi there,
@@ -39,12 +39,12 @@ export const sendEmail = async (to: string, resetLink: string) => {
     </p>
     <p style="color: #333333; font-size: 16px;">
       Thanks,<br/>
-      The Travel Tips & Destination Guides Team
+      The Guides Team
     </p>
     <hr style="border: 0; border-top: 1px solid #dddddd;">
     <p style="font-size: 12px; color: #aaaaaa; text-align: center;">
-      If you have any issues, please contact us at support@traveltips.com.<br/>
-      © 2024 Travel Tips & Destination Guides. All rights reserved.
+      If you have any issues, please contact us at devlopersolaiman@gmail.com.<br/>
+      © 2025 Travel Guides. All rights reserved.
     </p>
   </div>
   `,

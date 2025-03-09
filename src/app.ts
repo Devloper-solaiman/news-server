@@ -19,7 +19,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:3000",
-      "https://traveltipsdestinationcommunity.vercel.app",
+      // "https://traveltipsdestinationcommunity.vercel.app",
     ],
     credentials: true, // Allow credentials to be sent
   }),
@@ -29,7 +29,7 @@ app.use(
 app.use("/api/v1", router);
 
 app.get("/", (req: Request, res: Response) => {
-  res.send("Hello Travel Tips & Destination Guides");
+  res.send("Hello Travel Guides");
 });
 
 // Global Error
