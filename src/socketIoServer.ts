@@ -13,7 +13,7 @@ export const socketServer = (server: HttpServer): void => {
     cors: {
       origin: [
         "http://localhost:3000",
-        // "https://traveltipsdestinationcommunity.vercel.app",
+        "https://traveltipsdestinationcommunity.vercel.app",
       ],
       methods: ["GET", "POST"],
       credentials: true,

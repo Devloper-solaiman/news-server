@@ -19,7 +19,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:3000",
-    //   "https://traveltipsdestinationcommunity.vercel.app",
+      "https://traveltipsdestinationcommunity.vercel.app",
     ],
     credentials: true, // Allow credentials to be sent
   }),
