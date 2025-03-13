@@ -9,7 +9,7 @@ const socketServer = (server) => {
         cors: {
             origin: [
                 "http://localhost:3000",
-                "https://traveltipsdestinationcommunity.vercel.app",
+                "https://trave-news.vercel.app",
             ],
             methods: ["GET", "POST"],
             credentials: true,
