@@ -12,8 +12,8 @@ export const socketServer = (server: HttpServer): void => {
     pingTimeout: 60000,
     cors: {
       origin: [
-        "http://localhost:3000",
-        // "https://trave-news.vercel.app",
+        "https://trave-news.vercel.app",
+        
       ],
       methods: ["GET", "POST"],
       credentials: true,

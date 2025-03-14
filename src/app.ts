@@ -18,8 +18,7 @@ app.use(cookieParser());
 app.use(
   cors({
     origin: [
-      "http://localhost:3000",
-      // "https://trave-news.vercel.app",
+      "https://trave-news.vercel.app",
     ],
     credentials: true, // Allow credentials to be sent
   }),
